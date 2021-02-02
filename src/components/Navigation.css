@@ -1,0 +1,31 @@
+.link a {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    background-color: white;
+    display:flex;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.5);
+}
+
+.link a:hover {
+    background-color:#333;
+}
+
+.link a:last-child {
+    margin-top: 70px;
+}
+
+.link a:last-child:hover {
+    color: yellowgreen;
+}
+
+.link a:first-child:hover {
+    color: coral;
+}
